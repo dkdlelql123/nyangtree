@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "cross-env NODE_PATH=src vite",
+    "build": "cross-env NODE_PATH=src build", 
+    "preview": "vite preview --env=jsdom"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
