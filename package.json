@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "start": "cross-env NODE_PATH=src vite",
-    "build": "cross-env NODE_PATH=src build", 
+    "build": "cross-env NODE_PATH=src build",
     "preview": "vite preview --env=jsdom"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
+    "link": "^1.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.0"
