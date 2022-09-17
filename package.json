@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cross-env NODE_PATH=src vite",
     "build": "cross-env NODE_PATH=src build",
-    "preview": "vite preview --env=jsdom"
+    "preview": "vite preview"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
