@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "cross-env NODE_PATH=src vite",
-    "build": "cross-env NODE_PATH=src build",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "cross-env": "^7.0.3",
     "link": "^1.5.1",
     "react": "^18.2.0",
